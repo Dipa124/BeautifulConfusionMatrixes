@@ -6,7 +6,8 @@ Author: DP-12
 Maintainer: DP-12 <test@mail.com>
 Description: Este paquete ofrece una función para visualizar matrices de confusión generadas con el paquete caret, utilizando ggplot2 para una presentación gráfica diferenciada de aciertos y errores.
 License: MIT + file LICENSE
-Imports:
+Depends:
+    R (>= 4.4.0),
     ggplot2,
     caret
 Encoding: UTF-8
